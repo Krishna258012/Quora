@@ -1,5 +1,5 @@
 import Avatar from "react-avatar"
-import { auth, storage } from "../firebase/setup"
+import { storage } from "../firebase/setup"
 import account from "../assets/account.png"
 import { collection, doc, getDocs } from "firebase/firestore"
 import { useLocation } from "react-router-dom"
